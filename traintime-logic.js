@@ -8,11 +8,15 @@
 //    Then take the difference and modulus by frequency. (This step can be completed in either 3 or 4)
 
 // Initialize Firebase
-var config = {
-  apiKey: "AIzaSyCcPFcbAjIsgXGQwE-A3AcOXkeD40qypE8",
-  authDomain: "train-times-93583.firebaseapp.com",
-  databaseURL: "https://train-times-93583.firebaseio.com",
-  storageBucket: "train-times-93583.appspot.com"
+var firebaseConfig = {
+  apiKey: "AIzaSyDDumamT1YAU06KOk2rHGTDUdQKNfZbKTY",
+  authDomain: "new-tain.firebaseapp.com",
+  databaseURL: "https://new-tain.firebaseio.com",
+  projectId: "new-tain",
+  storageBucket: "",
+  messagingSenderId: "175983260360",
+  appId: "1:175983260360:web:d4823e08bf888711"
+
 };
 
 firebase.initializeApp(config);
